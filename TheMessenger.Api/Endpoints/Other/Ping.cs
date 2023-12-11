@@ -2,11 +2,14 @@
 
 using FluentResults;
 
+using JetBrains.Annotations;
+
 using TheMessenger.Api.Configuration;
 
 
 namespace TheMessenger.Api.Endpoints.Other;
 
+[UsedImplicitly]
 public class Ping : Endpoint<EmptyRequest, Result<string>> {
   public override async Task<Result<string>> ExecuteAsync(EmptyRequest req, CancellationToken ct) {
     return Result.Ok("pong");
