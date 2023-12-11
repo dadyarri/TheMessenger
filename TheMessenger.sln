@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMessenger.Api", "TheMessenger.Api\TheMessenger.Api.csproj", "{F00B9EF9-B4C9-4749-ACBB-09FB63A6E70A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMessenger.Entity", "TheMessenger.Entity\TheMessenger.Entity.csproj", "{C075C029-BA11-4E13-BFB6-CE7726FB4780}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F00B9EF9-B4C9-4749-ACBB-09FB63A6E70A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F00B9EF9-B4C9-4749-ACBB-09FB63A6E70A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F00B9EF9-B4C9-4749-ACBB-09FB63A6E70A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F00B9EF9-B4C9-4749-ACBB-09FB63A6E70A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C075C029-BA11-4E13-BFB6-CE7726FB4780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C075C029-BA11-4E13-BFB6-CE7726FB4780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C075C029-BA11-4E13-BFB6-CE7726FB4780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C075C029-BA11-4E13-BFB6-CE7726FB4780}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
