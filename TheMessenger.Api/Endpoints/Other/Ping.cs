@@ -5,7 +5,7 @@ using FluentResults;
 using TheMessenger.Api.Configuration;
 
 
-namespace TheMessenger.Api.Endpoints;
+namespace TheMessenger.Api.Endpoints.Other;
 
 public class Ping : Endpoint<EmptyRequest, Result<string>> {
   public override async Task<Result<string>> ExecuteAsync(EmptyRequest req, CancellationToken ct) {
