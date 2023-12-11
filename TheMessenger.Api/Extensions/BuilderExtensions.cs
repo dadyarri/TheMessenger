@@ -61,10 +61,9 @@ public static class BuilderExtensions {
     }
 
     void Tags(Dictionary<string, string> t) {
-      foreach (var prop in typeof(ApiTags).GetFields(BindingFlags.Static)) {
-        var value = (ApiTag)prop.GetValue(null)!;
-        t[value.Name] = value.Description;
-      }
+      t[ApiTags.Messages.Name] = ApiTags.Messages.Description;
+      t[ApiTags.Users.Name] = ApiTags.Users.Description;
+      t[ApiTags.Other.Name] = ApiTags.Other.Description;
     }
   }
 }
